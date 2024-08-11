@@ -7,7 +7,7 @@
 
 CLIMaxxing follows these steps to generate and run tests:
 
-1. **Parsing**: The tool reads the bash completion script (typically named something like `cast.d`) and parses it to extract all commands, subcommands, and their respective options.
+1. **Parsing**: The tool reads the bash completion script and parses it to extract all commands, subcommands, and their respective options.
 
 2. **Test Generation**: Using the parsed information, CLIMaxxing generates a series of BATS tests. These include:
    - Full completion tests for each command and subcommand
